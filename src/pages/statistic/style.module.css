@@ -1,0 +1,66 @@
+.Statistic {
+  width: 100%;
+}
+.ExpandAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.padding {
+  padding: 8px 16px 8px 8px;
+}
+.paddingHeader {
+  padding: 6px 8px;
+}
+.paddingLeft {
+  padding-left: 14px;
+}
+.headerdrop {
+  display: flex;
+  justify-content: start;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0969231px;
+  text-transform: uppercase;
+  color: #758695;
+  display: flex;
+  flex-direction: row;
+
+  gap: 8px;
+
+  /* Primary/Default */
+}
+.vlauedrop {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0969231px;
+
+  /* Secondary/Default */
+
+  color: #c5cbce;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.bgorther {
+  background: #1c2030;
+}
